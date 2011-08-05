@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4.DomainModel", "Day4.DomainModel\Day4.DomainModel.csproj", "{3D88E8EC-3DA8-41C5-BDFC-011E6A966BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4.Services", "Day4.Services\Day4.Services.csproj", "{A70640B2-A8A0-4B78-8C11-27AB816D63C8}"
+EndProject
+Project("{C8D11400-126E-41CD-887F-60BD40844F9E}") = "Day4.Database", "Day4.Database\Day4.Database.dbproj", "{67CBC824-A49E-4E9B-A947-360F3DFE65C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4.Tests", "Day4.Tests\Day4.Tests.csproj", "{6EF1C44B-0683-4869-896D-E2253CAC1F06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B35801E-9DC6-4C56-BF8C-0387C4D7AD71}"
+	ProjectSection(SolutionItems) = preProject
+		Day4.vsmdi = Day4.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day4.Web", "Day4.Web\Day4.Web.csproj", "{6F63B27D-9DF2-4BCE-8E7C-CECEFE78EACC}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Day4.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D88E8EC-3DA8-41C5-BDFC-011E6A966BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D88E8EC-3DA8-41C5-BDFC-011E6A966BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D88E8EC-3DA8-41C5-BDFC-011E6A966BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D88E8EC-3DA8-41C5-BDFC-011E6A966BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A70640B2-A8A0-4B78-8C11-27AB816D63C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A70640B2-A8A0-4B78-8C11-27AB816D63C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A70640B2-A8A0-4B78-8C11-27AB816D63C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A70640B2-A8A0-4B78-8C11-27AB816D63C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67CBC824-A49E-4E9B-A947-360F3DFE65C3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6EF1C44B-0683-4869-896D-E2253CAC1F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF1C44B-0683-4869-896D-E2253CAC1F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF1C44B-0683-4869-896D-E2253CAC1F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF1C44B-0683-4869-896D-E2253CAC1F06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F63B27D-9DF2-4BCE-8E7C-CECEFE78EACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F63B27D-9DF2-4BCE-8E7C-CECEFE78EACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F63B27D-9DF2-4BCE-8E7C-CECEFE78EACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F63B27D-9DF2-4BCE-8E7C-CECEFE78EACC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
